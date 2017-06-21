@@ -1,0 +1,57 @@
+===========
+ĆWICZENIE WSTĘPNE
+===========
+Napisać kod, który napisze 5 razy Twoje imię.
+
+===========
+PĘTLE
+===========
+Wyobraźmy sobie, że chcielibyśmy 100 razy napisać "Hello" na stronie. Nie uzywając żadnych konstrukcji języka programowania, musielibyśmy 100 razy skopiować linię kodu, która to pisze. 
+Ogólnie niemal każda duplikacja kodu jest w programowaniu zlą praktyką. Oprogramowanie żyje, jest rozwijane. Jeśli zmieni się jakieś wymaganie, duplikacja kodu wymagałaby zmiany w każdym miejscu. czyli np. nie chciemy 100 razy pisać słowa "Hello", tylko słowo "Witaj". Zmiana jest upierdliwa nawet mając pojedynczy plik - a często kod jest rozrzucony po wielu plikach. Dlatego unikamy duplikacji kodu gdziekolwiek się da.
+
+Pętle to konstrukcje programistyczne, które pozwalają na wykonanie danych operacji zadaną liczbę razy, lub dopóki pewien warunek jest prawdziwy.
+
+W JS mamy cztery konstrukcje pętli.
+
+for
+for-in 
+while
+do-while 
+
+----------
+for(wyrazenie1; wyrazenie2; wyrazenie3){...}
+----------
+Wyrażenie 1 jest wykonywane raz, przed wejściem do pętli. Tu zwykle następuje inicjalizacja tzw. indeksu, czyli zmiennej, która będzie liczyć wywołania pętli. 
+Wyrażenie 2 to warunek logiczny, który mówi, do jakiego momentu należy wykonywać pętlę.
+Wyrażenie 3 to instrukcja, która wykonuje się po każdym wykonaniu pętli. zwykle tutaj wykonuje się tzw. inkrementację indeksu (wyjaśnić).
+-----------
+Ćwiczenie - piszemy fora dla tablicy uczniów
+-----------
+
+-----------
+while (warunek) {...}
+-----------
+While jest wykonywana dopóki warunek w nawiasach jest prawdziwy.
+-----------
+Ćwiczenie - fibonacci 
+-----------
+
+-----------
+do {} while (warunek)
+-----------
+Bardzo podobna do pętli while - z tym tylko że zawsze ciało pętli jest wykonywane co najmniej raz.
+
+-----------
+for-in - do tego wrócimy przy obiektach.
+-----------
+
+===========
+ĆWICZENIE
+===========
+
+===========
+PROBLEM DLA CHĘTNYCH
+===========
+Jak zasymulować pętlę for za pomocą pętli while.
+
+

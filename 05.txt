@@ -1,0 +1,16 @@
+===========
+IF ELSE
+===========
+Wyrażenia warunkowe pozwalają wykonać jedną akcję jeśli dany warunek logiczny jest prawdziwy, oraz inną (lub żadną) jeśli jest fałszywy.
+
+prompt - możliwość pobrania danych od użytkownika.
+
+Mamy możliwość: IF, IF-ELSE, IF-ELSE-IF-ELSE
+
+===========
+ĆWICZENIE
+===========
+
+
+
+

@@ -1,0 +1,28 @@
+===========
+TABLICE
+===========
+Tablice to szczególne zmienne, które przechowują kolekcję elementów. Zwykle tego samego typu, jednak nie jest to wymagane (w JS).
+Przypuśćmy, że chcielibyśmy przechowywać dane 500 użytkowników. Gdyby nie tablice, musilibyśmy stworzyć 500 zmiennych, każda o innej nazwie. połapanie się w tym byłoby niemożliwe. 
+Do elementów tablicy mamy dostęp poprzez numer elementu. 
+Uwaga, tablice są numerowane od zera!
+
+  var students = ["John", "Ann", "Kevin"];
+  var students = new Array("John", "Ann", "Kevin");
+
+  var student = students[1];
+
+Tablice udostępniają szereg tzw. metod, czyli zachowań, oraz własności.
+
+array.length
+array.reverse()
+array.pop()
+array.shift()
+array.sort() - tutaj wspomnieć o tym, że oprócz naturalnego domyślnego porządku można też zdefiniować swój własny porządek. Można np. posortować odwrotnie, wg drugiej litery albo całkowicie losowo. Losowe sortowanie będzie nam potrzebne potem przy MEMORY.
+
+===========
+ĆWICZENIE
+===========
+Zaczynamy od pustego template'a 
+Dodajemy listę studentów, poszczególne funkcje.
+
+

@@ -1,0 +1,36 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>Arrays!!!</title>
+</head>
+
+<body>
+
+    <script type="text/javascript">
+        var students = new Array("Jacek", "Agatka", "Staszek", "Ala", "Marcin");
+
+        document.write("Tablica uczniów<br />");
+        document.write(students);
+        
+        document.write("<br />Liczba uczniów w tablicy: " + students.length + "<br />");
+        document.write("<br />Posortowana tablica<br />");
+        
+        students.sort();
+        document.write(students);
+
+        document.write("<br />Odwrócona tablica<br />");
+
+        students.reverse();
+        document.write(students);
+
+        document.write("<br />Uczniowie w tabeli po usunięciu ostatniego elementu<br />");
+
+        students.pop();
+        document.write(students);
+
+    </script>
+
+</body>
+
+</html>

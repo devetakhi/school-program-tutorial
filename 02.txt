@@ -1,0 +1,31 @@
+===========
+ZMIENNE
+===========
+Zmienne to elementy programu, które przechowują dane.
+Aby użyć zmiennej, należy ją najpierw zdeklarować:
+  var name ;
+Następnie poprzez operator przypisania, możemy nadać zmiennej wartość.
+  name = "Jacek";
+Można to zrobić w jednym kroku:
+  var name = "Agatka";
+
+Zmienne mogą nazywać się dowolnie - oby tylko zaczynały się od litery - jednak jest rekomendowane, by używać nazw, które rzeczywiście mówią, jakie dane są przechowywane w zmiennej.
+  TAK: name, imie, nazwa, imieNazwisko, studentName, isEnabled, numberOfLegs, liczbaUczniow. (wspomnieć o Camel Case i case sensitive)
+  NIE: a12, sth, tmp, cokolwiek
+
+Zmienne mogą także mieć przypisane do siebie wyrażenia, na przykład matematyczne.
+
+Zmienne mają swoje typy. Mogą to być: liczby, łańcuchy znaków (stringi), obiekty, tablice, nawet funkcje. Dojdziemy do tego później.
+
+==========
+document.write
+==========
+Wyjaśnić co to robi. Pierwsza manipulacja treścią strony z poziomu JS.
+
+===========
+ĆWICZENIE
+===========
+Zaczynamy od pustego template'a. 
+Dodajemy zmienne, wyrażenia i document.write.
+
+

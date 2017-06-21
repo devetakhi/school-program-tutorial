@@ -1,0 +1,42 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>Loops!!!</title>
+</head>
+
+<body>
+
+    <script type="text/javascript">
+        var students = new Array("John", "Ann", "Aaron", "Edwin", "Elizabeth");
+
+        document.write("<b>Tablica uczniów </b><br />");
+        for (var i = 0; i < students.length; i++) {
+            document.write(students[i] + "<br />");
+        }
+
+        document.write("Ciąg Fibonacciego do liczby 40<br />");
+        var i = 0, j = 1, k;
+        while (i < 40) {
+
+            document.write(i + "<br />");
+
+            k = i + j;
+            i = j;
+            j = k;
+
+        }
+
+        document.write("Liczby parzyste mniejsze od 20<br />");
+        var i = 2;
+        do {
+
+            document.write(i + "<br />");
+            i = i + 2;
+
+        } while (i < 20)
+    </script>
+
+</body>
+
+</html>

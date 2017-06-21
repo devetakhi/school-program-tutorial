@@ -1,0 +1,30 @@
+==========
+INTRO
+===========
+
+Javascript jest językiem skryptowym, zwykle używanym do rozszerzenia stron internetowych o dynamiczne zachowanie i reakcje na akcje użytkownika. Da się go uruchomić poza przeglądarką internetową, na przykład dzięki środowisku Node.js (dzięki czemu jest możliwe pisanie programów serwerowych w JS).
+My jednak w czasie naszego kursu nauczymy się, jak pisać programy uruchamiane w przeglądarce internetowej. 
+
+Historia: JS był stworzony w 1995 roku przez Brendana Eich'a. Po raz pierwszy pojawił się w przeglądarce Netscape. Na początku nazywal się LiveScript, jednak na fali popularności języka programowania Java został przemianowany na JavaScript. Z Javą jako taką nie ma w zasadzie nic wspólnego - jedynie mylącą nazwę. 
+
+Powiedzieliśmy, że JS jest językiem skryptowym, a to znaczy, że do jego uruchomienia potrzebny jest tzw. interpreter, inaczej środowisko uruchomieniowe. W naszym wypadku, środowiskiem uruchomieniowym będzie część przeglądarki internetowej, zwana silnikiem JS. Wszystkie nowoczesne przeglądarki potrafią uruchamiać JS w wersji 5. Trwają prace, by przeglądarki potrafiły także uruchamiać JS w wersji 6, który jest dużo bardziej zaawansowany, jednak na razie bez problemu będziemy działać w wersji 5, która działa wszędzie.
+
+===========
+WSTĘP DO STRON INTERNETOWYCH 
+===========
+- Omówienie elementów, a jakich składa się nasza prosta strona 01.html
+- Wspomnienie o stylach, na razie jednym zdaniem
+
+==========
+PIERWSZY KOD W JS
+==========
+Kod JavaScript umieszcza się w kodzie strony internetowej wewnątrz znaczników <script type="text/javascript"></script>, jako ostatni element wewnątrz znacznika <body>.
+Dzięki temu przeglądarka wie, że w tym miejscu powinna zaprząc do dzialania silnik JS.
+
+- Alert - wyjaśnić co to.
+
+==========
+ĆWICZENIE
+==========
+Zmienianie tekstu w alert.
+
