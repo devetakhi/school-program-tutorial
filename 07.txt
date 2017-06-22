@@ -1,0 +1,21 @@
+===========
+DOM
+===========
+Aby wyświetlić stronę internetową, przeglądarka musi ją sparsować - czyli przetłumaczyć na logiczną strukturę, którą rozumieją programy komputerowe. Struktura ta nazywa się DOM lub drzewo DOM - Document Object Model. Kod Javascriptowy również rozumie tę strukturę. Co więcej, potrafi się po niej poruszać oraz ją modyfikować. Dzięki użyciu funkcji JS możemy dodać i usunąć elementy strony internetowej, dodać i usunąć parametry do znaczników itp.
+Drzewo DOM udostęnia również tzw. eventy (zdarzenia). Kod JS może reagować na te zdarzenia, takie jak np. kliknięcie przycisku.
+
+Ważne funkcje:
+   getElementById
+   innerHTML
+   getElementsByTagName
+
+Procedura obsługi zdarzenia (event handler):
+   document.getElementById(id).addEventListener("click", functionname)
+
+===========
+ĆWICZENIE
+===========
+
+Ćwiczenie z liczeniem samogłosek można rozszerzyć do ćwiczenia ze zwracaniem wartości z funkcji.
+
+

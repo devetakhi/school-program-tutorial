@@ -1,0 +1,14 @@
+===========
+FUNKCJE
+===========
+Funkcje są bardzo ważną koncepcją we wszystkich językach programowania. Pozwalają używać danego kodu wielokrotnie, często zmieniając tylko dane wejściowe.
+Funkcja to jakby "nazwany" blok kodu, który zostanie wykonany dopiero, kiedy zistanie wywołany po zadanej nazwie.
+Funkcje mogą przyjmować parametry. Funkcje mogą zwracać wartości poprzez słowo kluczowe return.
+
+===========
+ĆWICZENIE
+===========
+
+Ćwiczenie z liczeniem samogłosek można rozszerzyć do ćwiczenia ze zwracaniem wartości z funkcji.
+
+

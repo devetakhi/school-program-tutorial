@@ -1,0 +1,56 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>Functions!!!</title>
+</head>
+
+<body>
+
+    <script type="text/javascript">
+        function mojaFunkcja() {
+            document.write("Moja pierwsza funkcja.<br />");
+        }
+
+        mojaFunkcja();
+
+        /////////////////////////////
+
+        var count = 0;
+
+        function policzSamogloski(name) {
+
+            for (var i = 0; i < name.length; i++) {
+                if (name[i] == "a"
+                    || name[i] == "e"
+                    || name[i] == "i"
+                    || name[i] == "o"
+                    || name[i] == "u"
+                    || name[i] == "y"
+                    || name[i] == "ę"
+                    || name[i] == "ą"
+                    || name[i] == "ó")
+                    count = count + 1;
+            }
+            document.write("Cześć " + name + "!!! Twoje imię ma " + count + " samogłosek.");
+        }
+
+        var myName = prompt("Podaj imię:");
+
+        policzSamogloski(myName);
+        
+        /////////////////////////////
+
+        function iloczyn(pierwszaLiczba, drugaLiczba) {
+            var iloczyn = pierwszaLiczba * drugaLiczba;
+            return iloczyn;
+        }
+
+        var firstNo = 78;
+        var secondNo = 22;
+        document.write(firstNo + " * " + secondNo + " = " + iloczyn(firstNo, secondNo));
+    </script>
+
+</body>
+
+</html>

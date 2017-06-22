@@ -1,0 +1,40 @@
+===========
+OBIEKTY
+===========
+Programowanie obiektowe (ang. object-oriented programming) – paradygmat programowania, w którym programy definiuje się za pomocą obiektów – elementów łączących stan (czyli dane, nazywane najczęściej polami) i zachowanie (czyli procedury, tu: metody). Obiektowy program komputerowy wyrażony jest jako zbiór takich obiektów, komunikujących się pomiędzy sobą w celu wykonywania zadań.
+
+Podejście to różni się od tradycyjnego programowania proceduralnego (funkcyjnego), gdzie dane i procedury (funkcje) nie są ze sobą bezpośrednio związane. Programowanie obiektowe ma ułatwić pisanie, konserwację i wielokrotne użycie programów lub ich fragmentów.
+
+Największym atutem programowania, projektowania oraz analizy obiektowej jest zgodność takiego podejścia z rzeczywistością – mózg ludzki jest w naturalny sposób najlepiej przystosowany do takiego podejścia przy przetwarzaniu informacji.
+
+Uczeń lub pralka mogą być obiektami, które posiadają swoje zachowania (metody) i dane. Np. uczeń może mieć pola: imię, nazwisko, klasa, adres. Może też mieć metody: przejdźDoInnejKlasy(), zmienAdres(). Pralka może mieć pola liczbaObrotow, wybranyProgram, listaDostepnychProgramow, oraz metody pierz(), susz(), wiruj().
+
+TWORZENIE OBIEKTU:
+
+    var objName = new Object();
+    objName.property1 = value1;
+    objName.property2 = value2;
+    objName.method1 = function(){...}
+
+    var objName = { property1: value1, property2: value2, method1: function(){...}};
+
+KONSTRUKTOR
+
+Jednak takie tworzenie obiektu nie jest zbyt użyteczne, jeśli potrzebujemy stworzyć wiele obiektóww tego samego typu. Np. wielu uczniów. Potrzebujemy swego rodzaju szkieletu, który definiowałby pola i metody obiektu, a my tylko wypełnialibyśmy go odpowiednimi danymi.
+Z pomocą przychodzi koncepcja KLASY lub KONSTRUKTORA. 
+JS w wersji 5 nie posiada osobnej koncepcji klasy. Konstrukcja, która umożliwia stworzenie szkieletu obiektu to tzw. KONSTRUKTOR. Używa on paradygmatu PROTOTYPOWANIA (dla chętnych wyjaśnić co to).
+
+Słowo kluczowe this - dzieki niemu odnosimy się do pól prototypu.
+
+FOR-IN 
+
+Obiecaliśmy, że przy okazji obiektów wrócimy do jeszcze jednej konstrukcji pętli w JS - czyli pętli for-in. 
+Pętla ta pozwala na iterację wewnątrz obiektu. 
+
+===========
+ĆWICZENIE
+===========
+
+Ćwiczenie pierwsze rozszerzamy do ćwiczenia drugiego i potem dokładamy for-in.
+
+

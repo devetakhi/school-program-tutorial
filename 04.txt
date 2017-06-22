@@ -42,7 +42,7 @@ do {} while (warunek)
 Bardzo podobna do pętli while - z tym tylko że zawsze ciało pętli jest wykonywane co najmniej raz.
 
 -----------
-for-in - do tego wrócimy przy obiektach.
+for-in - służy do iteracji po kolekcjach. Np po tablicach lub obiektach. Wrócimy do niej jeszcze przy omawianiu obiektów.
 -----------
 
 ===========

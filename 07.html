@@ -1,0 +1,37 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>DOM!!!</title>
+</head>
+
+<body>
+
+    <h1 id="one">Witamy na stronie</h1>
+    <p>Paragraf tekstu.</p>
+    <h2>Tytuł sekcji</h2>
+    <p id="second">Paragraf tekstu w sekcji</p>
+
+    <input type="button" id="btnClick" value="Nie klikaj mnie!" />
+
+
+    <script type="text/javascript">
+        var text = document.getElementById("one").innerHTML;
+        alert("Pierwszy nagłówek to: " + text);
+
+        var paragraphs = document.getElementsByTagName("p");
+        alert("Paragrafy mają treść: " + paragraphs[0].innerHTML + " oraz " + paragraphs[0].innerHTML);
+        document.getElementById("second").innerHTML = "Zmieniamy tu coś!";
+
+        /////
+
+        document.getElementById("btnClick").addEventListener("click", clicked);
+
+        function clicked() {
+            alert("No i po co klikasz? :)");
+        }
+    </script>
+
+</body>
+
+</html>

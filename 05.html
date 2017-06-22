@@ -8,33 +8,34 @@
 <body>
 
     <script type="text/javascript">
-        var students = new Array("John", "Ann", "Aaron", "Edwin", "Elizabeth");
+        var age = prompt("Podaj swój wiek");
 
-        document.write("<b>Tablica uczniów </b><br />");
-        for (var i = 0; i < students.length; i++) {
-            document.write(students[i] + "<br />");
-        }
+        if (age >= 18)
+            document.write("Jesteś dorosły! <br />");
 
-        document.write("Ciąg Fibonacciego do liczby 40<br />");
-        var i = 0, j = 1, k;
-        while (i < 40) {
+        if (age < 18)
+            document.write("Nie jesteś dorosły! <br />");
 
-            document.write(i + "<br />");
 
-            k = i + j;
-            i = j;
-            j = k;
+        var hours = new Date().getHours();
 
-        }
+        if (hours < 12)
+            document.write("Good Morning!<br />");
+        else
+            document.write("Good Afternoon!<br />");
 
-        document.write("Liczby parzyste mniejsze od 20<br />");
-        var i = 2;
-        do {
 
-            document.write(i + "<br />");
-            i = i + 2;
+        var one = prompt("Podaj pierwszą liczbę");
+        var two = prompt("Podaj drugą liczbę");
+        one = parseInt(one);
+        two = parseInt(two);
 
-        } while (i < 20)
+        if (one == two)
+            document.write(one + " jest równe " + two + ".");
+        else if (one < two)
+            document.write(one + " jest mniejsze niż " + two + ".");
+        else
+            document.write(one + " jest większe niż " + two + ".");
     </script>
 
 </body>
