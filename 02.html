@@ -1,27 +1,21 @@
-<!DOCTYPE>
-<html>
 
-<head>
-    <title>Variables!!!</title>
-</head>
+        let one = 22;
+        let two = 3;
+        let add = one + two;
+        let minus = one - two;
+        let multiply = one * two;
+        let divide = one / two;
 
-<body>
+wypiszNaKonsole("First No: = " + one + "Second No: = " + two);
+wypiszNaKonsole(one + " + " + two + " = " + add);
+wypiszNaKonsole(one + " - " + two + " = " + minus);
+wypiszNaKonsole(one + " * " + two + " = " + multiply);
+wypiszNaKonsole(one + " / " + two + " = " + divide);
 
-    <script type="text/javascript">
-        var one = 22;
-        var two = 3;
-        var add = one + two;
-        var minus = one - two;
-        var multiply = one * two;
-        var divide = one / two;
+function wypiszNaKonsole(x){
+    console.log(x);
+}
 
-        document.write("First No: = " + one + "<br />Second No: = " + two + " <br />");
-        document.write(one + " + " + two + " = " + add + "<br/>");
-        document.write(one + " - " + two + " = " + minus + "<br/>");
-        document.write(one + " * " + two + " = " + multiply + "<br/>");
-        document.write(one + " / " + two + " = " + divide + "<br/>");
-    </script>
-
-</body>
-
-</html>
+function wypiszNaHtml(x){
+    document.write(x + "<br/>");
+}
