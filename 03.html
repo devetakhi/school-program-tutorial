@@ -1,36 +1,29 @@
-<!DOCTYPE>
-<html>
 
-<head>
-    <title>Arrays!!!</title>
-</head>
+        let students = new Array("Jacek", "Agatka", "Staszek", "Ala", "Marcin");
 
-<body>
-
-    <script type="text/javascript">
-        var students = new Array("Jacek", "Agatka", "Staszek", "Ala", "Marcin");
-
-        document.write("Tablica uczniów<br />");
-        document.write(students);
+        wypiszNaKonsole("Tablica uczniów");
+        wypiszNaKonsole(students);
         
-        document.write("<br />Liczba uczniów w tablicy: " + students.length + "<br />");
-        document.write("<br />Posortowana tablica<br />");
+        wypiszNaKonsole("Liczba uczniów w tablicy: " + students.length);
+        wypiszNaKonsole("Posortowana tablica");
         
         students.sort();
-        document.write(students);
+        wypiszNaKonsole(students);
 
-        document.write("<br />Odwrócona tablica<br />");
+        wypiszNaKonsole("Odwrócona tablica");
 
         students.reverse();
-        document.write(students);
+        wypiszNaKonsole(students);
 
-        document.write("<br />Uczniowie w tabeli po usunięciu ostatniego elementu<br />");
+        wypiszNaKonsole("Uczniowie w tabeli po usunięciu ostatniego elementu");
 
         students.pop();
-        document.write(students);
+        wypiszNaKonsole(students);
 
-    </script>
+function wypiszNaKonsole(x){
+    console.log(x);
+}
 
-</body>
-
-</html>
+function wypiszNaHtml(x){
+    document.write(x + "<br/>");
+}
