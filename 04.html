@@ -1,25 +1,17 @@
-<!DOCTYPE>
-<html>
 
-<head>
-    <title>Loops!!!</title>
-</head>
 
-<body>
+        let students = new Array("John", "Ann", "Aaron", "Edwin", "Elizabeth");
 
-    <script type="text/javascript">
-        var students = new Array("John", "Ann", "Aaron", "Edwin", "Elizabeth");
-
-        document.write("<b>Tablica uczniów </b><br />");
-        for (var i = 0; i < students.length; i++) {
-            document.write(students[i] + "<br />");
+        wypiszNaKonsole("Tablica uczniów");
+        for (let i = 0; i < students.length; i++) {
+            wypiszNaKonsole(students[i]);
         }
 
-        document.write("Ciąg Fibonacciego do liczby 40<br />");
-        var i = 0, j = 1, k;
+        wypiszNaKonsole("Ciąg Fibonacciego do liczby 40");
+        let i = 0, j = 1, k;
         while (i < 40) {
 
-            document.write(i + "<br />");
+           wypiszNaKonsole(i);
 
             k = i + j;
             i = j;
@@ -27,28 +19,25 @@
 
         }
 
-        document.write("Liczby parzyste mniejsze od 20<br />");
-        var i = 2;
+        wypiszNaKonsole("Liczby parzyste mniejsze od 20");
+        let i = 2;
         do {
 
-            document.write(i + "<br />");
+            wypiszNaKonsole(i);
             i = i + 2;
 
         } while (i < 20)
 
 
-        var oceny = [1,1,1,2,5,6,4,4,4,5,5,6,6,3,3];
-        var srednia = 0;
-        for (var x in oceny){
+        let oceny = [1,1,1,2,5,6,4,4,4,5,5,6,6,3,3];
+        let srednia = 0;
+        for (let x in oceny){
             srednia = srednia + oceny[x];
         }
         srednia = srednia / oceny.length;
 
-        document.write("Średnia ocen "+ oceny + " = " + srednia);
+        wypiszNaKonsole("Średnia ocen "+ oceny + " = " + srednia);
 
-
-    </script>
-
-</body>
-
-</html>
+function wypiszNaKonsole(x){
+    console.log(x);
+}
