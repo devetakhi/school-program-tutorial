@@ -1,26 +1,17 @@
-<!DOCTYPE>
-<html>
 
-<head>
-    <title>Functions!!!</title>
-</head>
-
-<body>
-
-    <script type="text/javascript">
         function mojaFunkcja() {
-            document.write("Moja pierwsza funkcja.<br />");
+            wypiszNaKonsole("Moja pierwsza funkcja.");
         }
 
         mojaFunkcja();
 
         /////////////////////////////
 
-        var count = 0;
+        let count = 0;
 
         function policzSamogloski(name) {
 
-            for (var i = 0; i < name.length; i++) {
+            for (let i = 0; i < name.length; i++) {
                 if (name[i] == "a"
                     || name[i] == "e"
                     || name[i] == "i"
@@ -32,25 +23,24 @@
                     || name[i] == "ó")
                     count = count + 1;
             }
-            document.write("Cześć " + name + "!!! Twoje imię ma " + count + " samogłosek.");
+            wypiszNaKonsole("Cześć " + name + "!!! Twoje imię ma " + count + " samogłosek.");
         }
 
-        var myName = prompt("Podaj imię:");
+        let myName = prompt("Podaj imię:");
 
         policzSamogloski(myName);
         
         /////////////////////////////
 
         function iloczyn(pierwszaLiczba, drugaLiczba) {
-            var iloczyn = pierwszaLiczba * drugaLiczba;
+            let iloczyn = pierwszaLiczba * drugaLiczba;
             return iloczyn;
         }
 
-        var firstNo = 78;
-        var secondNo = 22;
-        document.write(firstNo + " * " + secondNo + " = " + iloczyn(firstNo, secondNo));
-    </script>
+        let firstNo = 78;
+        let secondNo = 22;
+        wypiszNaKonsole(firstNo + " * " + secondNo + " = " + iloczyn(firstNo, secondNo));
 
-</body>
-
-</html>
+function wypiszNaKonsole(x){
+    console.log(x);
+}
