@@ -1,16 +1,16 @@
 
-        let one = 22;
-        let two = 3;
-        let add = one + two;
-        let minus = one - two;
-        let multiply = one * two;
-        let divide = one / two;
+        let jeden = 22;
+        let dwa = 3;
+        let dodaj = jeden + dwa;
+        let odejmij = jeden - dwa;
+        let pomnoz = jeden * dwa;
+        let podziel = jeden / dwa;
 
-wypiszNaKonsole("First No: = " + one + "Second No: = " + two);
-wypiszNaKonsole(one + " + " + two + " = " + add);
-wypiszNaKonsole(one + " - " + two + " = " + minus);
-wypiszNaKonsole(one + " * " + two + " = " + multiply);
-wypiszNaKonsole(one + " / " + two + " = " + divide);
+wypiszNaKonsole("Pierwszy numer: = " + jeden + "Drugi numer: = " + dwa);
+wypiszNaKonsole(jeden + " + " + dwa + " = " + dodaj);
+wypiszNaKonsole(jeden + " - " + dwa + " = " + odejmij);
+wypiszNaKonsole(jeden + " * " + dwa + " = " + pomnoz);
+wypiszNaKonsole(jeden + " / " + dwa + " = " + podziel);
 
 function wypiszNaKonsole(x){
     console.log(x);

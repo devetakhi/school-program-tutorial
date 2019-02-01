@@ -7,28 +7,28 @@
 
 <body>
 
-    <h1 id="one">Witamy na stronie</h1>
+    <h1 id="naglowek">Witamy na stronie</h1>
     <p>Paragraf tekstu.</p>
     <h2>Tytuł sekcji</h2>
-    <p id="second">Paragraf tekstu w sekcji</p>
+    <p id="drugiParagraf">Paragraf tekstu w sekcji</p>
 
-    <input type="button" id="btnClick" value="Nie klikaj mnie!" />
+    <input type="button" id="przycisk" value="Nie klikaj mnie!" />
 
 
     <script type="text/javascript">
         
-        let text = document.getElementById("one").innerHTML;
-        alert("Pierwszy nagłówek to: " + text);
+        let mojTekst = document.getElementById("naglowek").innerHTML;
+        alert("Pierwszy nagłówek to: " + mojTekst);
 
-        let paragraphs = document.getElementsByTagName("p");
-        alert("Paragrafy mają treść: " + paragraphs[0].innerHTML + " oraz " + paragraphs[0].innerHTML);
-        document.getElementById("second").innerHTML = "Zmieniamy tu coś!";
+        let paragrafy = document.getElementsByTagName("p");
+        alert("Paragrafy mają treść: " + paragrafy[0].innerHTML + " oraz " + paragrafy[0].innerHTML);
+        document.getElementById("drugiParagraf").innerHTML = "Zmieniamy tu coś!";
 
         /////
 
-        document.getElementById("btnClick").addEventListener("click", clicked);
+        document.getElementById("przycisk").addEventListener("click", funkcjaDoKlikania);
 
-        function clicked() {
+        function funkcjaDoKlikania() {
             alert("No i po co klikasz? :)");
         }
     </script>

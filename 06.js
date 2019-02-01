@@ -7,39 +7,39 @@
 
         /////////////////////////////
 
-        let count = 0;
+        let licznik = 0;
 
-        function policzSamogloski(name) {
+        function policzSamogloski(imie) {
 
-            for (let i = 0; i < name.length; i++) {
-                if (name[i] == "a"
-                    || name[i] == "e"
-                    || name[i] == "i"
-                    || name[i] == "o"
-                    || name[i] == "u"
-                    || name[i] == "y"
-                    || name[i] == "ę"
-                    || name[i] == "ą"
-                    || name[i] == "ó")
-                    count = count + 1;
+            for (let i = 0; i < imie.length; i++) {
+                if (imie[i] == "a"
+                    || imie[i] == "e"
+                    || imie[i] == "i"
+                    || imie[i] == "o"
+                    || imie[i] == "u"
+                    || imie[i] == "y"
+                    || imie[i] == "ę"
+                    || imie[i] == "ą"
+                    || imie[i] == "ó")
+                    licznik = licznik + 1;
             }
-            wypiszNaKonsole("Cześć " + name + "!!! Twoje imię ma " + count + " samogłosek.");
+            wypiszNaKonsole("Cześć " + imie + "!!! Twoje imię ma " + licznik + " samogłosek.");
         }
 
-        let myName = prompt("Podaj imię:");
+        let mojeImie = prompt("Podaj imię:");
 
-        policzSamogloski(myName);
+        policzSamogloski(mojeImie);
         
         /////////////////////////////
 
-        function iloczyn(pierwszaLiczba, drugaLiczba) {
-            let iloczyn = pierwszaLiczba * drugaLiczba;
+        function iloczyn(pierwszyArgument, drugiArgument) {
+            let iloczyn = pierwszyArgument * drugiArgument;
             return iloczyn;
         }
 
-        let firstNo = 78;
-        let secondNo = 22;
-        wypiszNaKonsole(firstNo + " * " + secondNo + " = " + iloczyn(firstNo, secondNo));
+        let pierwszyParametr = 78;
+        let drugiParametr = 22;
+        wypiszNaKonsole(pierwszyParametr + " * " + drugiParametr + " = " + iloczyn(pierwszyParametr, drugiParametr));
 
 function wypiszNaKonsole(x){
     console.log(x);

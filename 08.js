@@ -27,10 +27,10 @@ function wypiszNaKonsole(x){
             }
         }
 
-        let st1 = new Student("John", "Smith", 15, 85, 79, 90);
-        let st2 = new Student("Hannah", "Turner", 23, 75, 80, 82);
-        let st3 = new Student("Kevin", "White", 4, 93, 89, 90);
-        let st4 = new Student("Rose", "Taylor", 11, 55, 63, 45);
+        let st1 = new Student("John", "Smith", 15, 85, 79, 6666);
+        let st2 = new Student("Hannah", "Turner", 23, 75, 80, 7777);
+        let st3 = new Student("Kevin", "White", 4, 93, 89, 8888);
+        let st4 = new Student("Rose", "Taylor", 11, 55, 63, 9999);
 
         st1.pokazSzczegoly();
         st2.pokazSzczegoly();

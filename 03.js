@@ -1,24 +1,24 @@
 
-        let students = new Array("Jacek", "Agatka", "Staszek", "Ala", "Marcin");
+        let studenci = new Array("Jacek", "Agatka", "Staszek", "Ala", "Marcin");
 
         wypiszNaKonsole("Tablica uczniów");
-        wypiszNaKonsole(students);
+        wypiszNaKonsole(studenci);
         
-        wypiszNaKonsole("Liczba uczniów w tablicy: " + students.length);
+        wypiszNaKonsole("Liczba uczniów w tablicy: " + studenci.length);
         wypiszNaKonsole("Posortowana tablica");
         
-        students.sort();
-        wypiszNaKonsole(students);
+        studenci.sort();
+        wypiszNaKonsole(studenci);
 
         wypiszNaKonsole("Odwrócona tablica");
 
-        students.reverse();
-        wypiszNaKonsole(students);
+        studenci.reverse();
+        wypiszNaKonsole(studenci);
 
         wypiszNaKonsole("Uczniowie w tabeli po usunięciu ostatniego elementu");
 
-        students.pop();
-        wypiszNaKonsole(students);
+        studenci.pop();
+        wypiszNaKonsole(studenci);
 
 function wypiszNaKonsole(x){
     console.log(x);

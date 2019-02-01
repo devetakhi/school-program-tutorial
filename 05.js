@@ -1,32 +1,32 @@
 
-        let age = prompt("Podaj swój wiek");
+        let twojWiek = prompt("Podaj swój wiek");
 
-        if (age >= 18)
+        if (twojWiek >= 18)
             wypiszNaKonsole("Jesteś dorosły!");
 
-        if (age < 18)
+        if (twojWiek < 18)
             wypiszNaKonsole("Nie jesteś dorosły!");
 
 
-        let hours = new Date().getHours();
+        let godziny = new Date().getHours();
 
-        if (hours < 12)
+        if (godziny < 12)
             wypiszNaKonsole("Good Morning!");
         else
             wypiszNaKonsole("Good Afternoon!");
 
 
-        let one = prompt("Podaj pierwszą liczbę");
-        let two = prompt("Podaj drugą liczbę");
-        one = parseInt(one);
-        two = parseInt(two);
+        let jeden = prompt("Podaj pierwszą liczbę");
+        let dwa = prompt("Podaj drugą liczbę");
+        jeden = parseInt(jeden);
+        dwa = parseInt(dwa);
 
-        if (one == two)
-            wypiszNaKonsole(one + " jest równe " + two + ".");
-        else if (one < two)
-            wypiszNaKonsole(one + " jest mniejsze niż " + two + ".");
+        if (jeden == dwa)
+            wypiszNaKonsole(jeden + " jest równe " + dwa + ".");
+        else if (jeden < dwa)
+            wypiszNaKonsole(jeden + " jest mniejsze niż " + dwa + ".");
         else
-            wypiszNaKonsole(one + " jest większe niż " + two + ".");
+            wypiszNaKonsole(jeden + " jest większe niż " + dwa + ".");
                            
 function wypiszNaKonsole(x){
     console.log(x);

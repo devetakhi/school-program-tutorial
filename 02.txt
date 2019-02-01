@@ -1,13 +1,13 @@
 ===========
 ZMIENNE
 ===========
-Zmienne to elementy programu, które przechowują dane.
+Zmienne to elementy programu ("pudełka"), które przechowują dane.
 Aby użyć zmiennej, należy ją najpierw zdeklarować:
-  var name ;
+  let name ;
 Następnie poprzez operator przypisania, możemy nadać zmiennej wartość.
   name = "Jacek";
 Można to zrobić w jednym kroku:
-  var name = "Agatka";
+  let name = "Agatka";
 
 Zmienne mogą nazywać się dowolnie - oby tylko zaczynały się od litery - jednak jest rekomendowane, by używać nazw, które rzeczywiście mówią, jakie dane są przechowywane w zmiennej.
   TAK: name, imie, nazwa, imieNazwisko, studentName, isEnabled, numberOfLegs, liczbaUczniow. (wspomnieć o Camel Case i case sensitive)

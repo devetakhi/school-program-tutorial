@@ -6,10 +6,10 @@ Przypuśćmy, że chcielibyśmy przechowywać dane 500 użytkowników. Gdyby nie
 Do elementów tablicy mamy dostęp poprzez numer elementu. 
 Uwaga, tablice są numerowane od zera!
 
-  var students = ["John", "Ann", "Kevin"];
-  var students = new Array("John", "Ann", "Kevin");
+  let students = ["John", "Ann", "Kevin"];
+  let students = new Array("John", "Ann", "Kevin");
 
-  var student = students[1];
+  let student = students[1];
 
 Tablice udostępniają szereg tzw. metod, czyli zachowań, oraz własności.
 
